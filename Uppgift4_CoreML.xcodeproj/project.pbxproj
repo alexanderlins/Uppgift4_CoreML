@@ -11,6 +11,7 @@
 		89551B532B03711800D5B982 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89551B522B03711800D5B982 /* ContentView.swift */; };
 		89551B552B03711A00D5B982 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89551B542B03711A00D5B982 /* Assets.xcassets */; };
 		89551B582B03711A00D5B982 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89551B572B03711A00D5B982 /* Preview Assets.xcassets */; };
+		89551B5F2B03716A00D5B982 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 89551B5E2B03716A00D5B982 /* MobileNetV2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		89551B522B03711800D5B982 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		89551B542B03711A00D5B982 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89551B572B03711A00D5B982 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		89551B5E2B03716A00D5B982 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				89551B502B03711800D5B982 /* Uppgift4_CoreMLApp.swift */,
 				89551B522B03711800D5B982 /* ContentView.swift */,
+				89551B5E2B03716A00D5B982 /* MobileNetV2.mlmodel */,
 				89551B542B03711A00D5B982 /* Assets.xcassets */,
 				89551B562B03711A00D5B982 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89551B5F2B03716A00D5B982 /* MobileNetV2.mlmodel in Sources */,
 				89551B532B03711800D5B982 /* ContentView.swift in Sources */,
 				89551B512B03711800D5B982 /* Uppgift4_CoreMLApp.swift in Sources */,
 			);
