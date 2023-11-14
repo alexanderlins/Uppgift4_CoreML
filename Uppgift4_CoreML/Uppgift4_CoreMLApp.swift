@@ -11,6 +11,8 @@ import SwiftUI
 struct Uppgift4_CoreMLApp: App {
     var body: some Scene {
         WindowGroup {
+            
+            //Start screen
             ContentView()
         }
     }

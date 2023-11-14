@@ -49,6 +49,7 @@ struct ContentView: View {
     ContentView()
 }
 
+//Class for analyzing the image
 class DoML: ObservableObject {
     @Published var predict: String = ""
     
